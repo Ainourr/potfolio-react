@@ -42,3 +42,64 @@ nav ul li {
     border-top: 0.1875rem solid var(--primary-orange);
 }
 
+
+/* Header ucun CSS kodlari */
+.header-wrapper {
+    position: relative;
+    background: url(wall-and-laptop-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.main-info {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-info h1 {
+    color:var(--primary-orange);
+    margin-bottom: 25px;
+}
+
+
+
+.typed-text {
+    font-size: 2rem;
+    color: var(--primary-white);
+}
+
+
+@media(max-width:768px) {
+    .main-info h1 {
+        font-size: 1.7rem !important;
+
+    }
+
+    .typed-text {
+        font-size: 1.7rem !important;  
+    }
+}
+
+.downloadcv {
+    border: 1px solid var(--primary-red);
+    padding: 0.625rem;
+    margin: 4rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: var(--primary-white);
+}
+
+.downloadcv:hover{
+    text-decoration: none;
+    background-color: var(--primary-hover-red);
+    color: var(--primary-white);
+    transition: .4s ease-in-out;
+}
