@@ -138,3 +138,66 @@ nav ul li {
         text-align: justify;
     }
 }
+
+/* services hissesi */
+.services {
+    text-align: center;
+    background-color: var(--primary-light-grey);
+    padding-bottom: 2rem;
+}
+
+.services h1 {
+    text-transform: uppercase;
+}
+
+.services .circle {
+    position: relative;
+    margin: 0.0375rem auto;
+    background-color: var(--primary-orange);
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+}
+
+
+.services .circle .icon {
+    font-size: 1.4rem;
+    color: var(--primary-white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.box h2 {
+    margin-top: 2.1rem;
+}
+
+.services .box {
+    background: var(--primary-white);
+    border-bottom: 0.3125rem solid var(--primary-orange);
+    padding: 0.625rem;
+    margin-bottom: 1.875rem;
+    height: 350px;
+    transition: all .7s ease-in-out;
+
+}
+
+.services .box:hover {
+    cursor: pointer;
+    background: var(--primary-orange);
+    border-bottom: 0.3125rem solid var(--primary-dark);
+}
+
+
+.services .box:hover .icon {
+    color: var(--primary-dark);
+}
+
+.services .box:hover .circle {
+    background: var(--primary-white);
+}
+.services .box:hover p {
+    color: var(--primary-white);
+}
