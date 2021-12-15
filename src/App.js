@@ -8,6 +8,7 @@ import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 // import Services from './components/Services'
 import Experience from './components/Experience'
+import Contactus from './components/Contactus'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <AboutMe />
     {/* <Services /> */}
     <Experience />
+    <Contactus />
 
     </div>
   );
