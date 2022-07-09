@@ -1,17 +1,18 @@
 import React from 'react'
-// arrow function
+import photo from '../pp.png'
+
 const AboutMe = () => {
     return (
         <div className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div className="photo-wrap mb-5">
-                        <img className="profile-img" src="https://source.unsplash.com/random" alt="" />
+                        <img className="profile-img" src={photo} alt="photo" />
                     </div>
                 </div>
             <div className="col-lg-6 col-xm-12">
                 <h1 className="about-heading">About me</h1>
-                <p className="p-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, tempora? Eos aperiam, incidunt libero corrupti recusandae laudantium modi, nobis, ab in mollitia facilis quasi ad saepe. Dolorum, at quo. Maxime alias voluptates enim consequuntur placeat nam, ratione ducimus fugiat vero repellat deserunt, tenetur, ad praesentium nulla in sint perferendis corrupti.</p>
+                <p className="p-text">I`m Aynur. My age is 21. I`m currently in my fourth years of studying Math teacher at Baku Engineering University. I am taking front-end courses for 3 months more . In the future, want to be proficient full-stack developer.</p>
             </div>
 
             </div>

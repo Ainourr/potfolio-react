@@ -1,18 +1,19 @@
 import React from 'react'
 import Typed from 'react-typed'
-import shekil from '../wall-and-laptop-background.jpg'
+import shekil from '../components/resume.pdf'
 
 const Header = () =>{
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>Web development and website services</h1>
+                <h1>Aynur Mahmudova</h1>
                 <Typed
                 className="typed-text"
                 strings={[
-                    'Microsoft Azure Developing Solutions Associate',
-                    'Microsoft Certified Trainer',
-                    '88.8% MERN success rate trainer']}
+                    'Baku Engineering University',
+                    'Math Teacher',
+                    'Microsoft Technology Associate',
+                    'English Language B2 level',]}
                     typeSpeed={40}
                     backSpeed={50}
                     loop >

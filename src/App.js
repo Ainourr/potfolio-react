@@ -9,17 +9,22 @@ import AboutMe from './components/AboutMe'
 // import Services from './components/Services'
 import Experience from './components/Experience'
 import Contactus from './components/Contactus'
-
-function App() {
+import Error from './components/error'
+import Footer from './components/Footer'
+function App() { 
   return (
+    
     <div className="container-fluid">
 
     <Navbar />
     <Header />
     <AboutMe />
     {/* <Services /> */}
+    
     <Experience />
     <Contactus />
+    <Error/>
+    <Footer/>
 
     </div>
   );

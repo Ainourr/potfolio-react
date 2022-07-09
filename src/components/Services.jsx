@@ -13,10 +13,10 @@ const  Services = () =>  {
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
-                                <FontAwesomeIcon icon={faGoogle}  className="icon" />
+                                <FontAwesomeIcon icon={faGoogle}  className="icon" size='2x' />
                             </div>
-                            <h2>SEO</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sint.</p>
+                            <h2>Teacher</h2>
+                            <p>I worked just 4 months. It was a experience a lit bit.</p>
                         </div>
                     </div>
 

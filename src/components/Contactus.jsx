@@ -7,7 +7,7 @@ const Contactus = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+ 
     const serviceID = 'service_wx4u87q'
     const templateID = 'template_c5swiqc'
     const userID = 'user_XSVgRv73Ciboc6WRBgZW2'
@@ -33,7 +33,7 @@ const Contactus = () => {
                         <div className='col-md-6 col-xs-12'>
                         {/* name input */}
                         <div className='text-center'>
-                            <input 
+                            <input autoComplete="off"  
                             type="text"
                             className='form-control'
                             placeholder='Name'
@@ -44,7 +44,7 @@ const Contactus = () => {
 
                         {/* phone input */}
                         <div className='text-center'>
-                            <input 
+                            <input autoComplete="off"
                             type="text"
                             className='form-control'
                             placeholder='Enter your telephone number'
@@ -56,10 +56,10 @@ const Contactus = () => {
                         {/* email */}
 
                         <div className='text-center'>
-                            <input 
+                            <input autoComplete="off"
                             type="email"
                             className='form-control'
-                            placeholder='info@anvarkhalid.com'
+                            placeholder='aynurmahmudova05@gmail.com'
                             name='email'
                             />
                             <div className='line'></div>
@@ -68,7 +68,7 @@ const Contactus = () => {
 
                         <div className='text-center'>
                             <input 
-                            type="text"
+                            type="text" autoComplete="off"
                             className='form-control'
                             placeholder='Enter your subject'
                             name='subject'
@@ -83,7 +83,7 @@ const Contactus = () => {
                             {/* message */}
                             <div className='text-center'>
                                 <textarea 
-                                type="text"
+                                type="text" autoComplete="off"
                                 className='form-control'
                                 placeholder='Describe your need'
                                 name='message'

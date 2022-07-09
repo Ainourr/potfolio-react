@@ -12,6 +12,12 @@
     --primary-green: rgb(0,255,0);
 
 }
+
+*{
+    margin:0
+}
+
+@import '~mdb-ui-kit/css/mdb.min.css';
 nav {
     z-index:999;
 }
@@ -19,13 +25,11 @@ nav ul {
     overflow: hidden;
 }
 /* Navbarin kodlari */
-
 .logo {
-    /* 1 rem 16px  */
+   
     width: 14rem; 
 
 }
-
 nav a.nav-link {
     font-size: 1.2rem;
     letter-spacing: 0.0375rem;
@@ -33,7 +37,6 @@ nav a.nav-link {
     color: var(--primary-white) !important;
 
 }
-
 nav ul li {
     text-transform: uppercase;
 }
@@ -43,8 +46,6 @@ nav ul li {
 .navbar-nav >li > a:focus {
     border-top: 0.1875rem solid var(--primary-orange);
 }
-
-
 /* Header ucun CSS kodlari */
 .header-wrapper {
     position: relative;
@@ -53,7 +54,6 @@ nav ul li {
     height: 100vh;
     background-position: center;
 }
-
 .main-info {
     position: absolute;
     top: -250px;
@@ -141,7 +141,7 @@ nav ul li {
     }
 }
 
-/* services hissesi */
+/* services hissesi
 .services {
     text-align: center;
     background-color: var(--primary-light-grey);
@@ -202,7 +202,7 @@ nav ul li {
 }
 .services .box:hover p {
     color: var(--primary-white);
-}
+} */
 
 /* Experience ucun stiller */
 
@@ -317,7 +317,7 @@ nav ul li {
     border: none;
     resize: none;
     box-sizing: border-box;
-    color: var(--primary-hover-red);
+    color: var(--primary-orange);
     outline: none !important;
 }
 
@@ -340,6 +340,7 @@ nav ul li {
     padding: 0.625rem 0.75rem 0.75rem 0.75rem;
     color:var(--primary-white);
     background:none;
+    
 
 }
 
@@ -362,4 +363,50 @@ input:focus+.line, textarea:focus+.line {
     transition: width .5s ease-in-out;
 }
 
-/* footer stilllleriiiii */
+
+/* error page */
+/* .col-md-10 .btn btn-danger{
+    background-color: var(--primary-orange);
+} */
+
+/* footer stilleri */
+
+.footer {
+ background-color:    #343a40!important;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  
+}
+.footer a{
+    color: #fff;
+}
+
+.border {
+    /* border-radius: 50%;
+    box-sizing: border-box;*/
+    
+    
+    justify-content: center;
+    align-items: center; 
+     display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    background:darkorange;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+
+}
+.border ul li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 13px;
+    display: flex;
+
+}
+.footer-copyright {
+    color: #fff;
+}
